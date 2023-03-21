@@ -1,9 +1,9 @@
 node{
 
-    stage('clone java project') {
+    stage('clone jsreenu ava project') {
    git 'https://github.com/sreenu4NTvc/mahalogin.git'
 }
 
-stage('excute maven targer') {
+stage('excute  sreenu maven targer') {
     sh 'mvn install'
 }
