@@ -7,3 +7,4 @@ node{
 stage('excute  sreenu maven targer') {
     sh 'mvn install'
 }
+}
